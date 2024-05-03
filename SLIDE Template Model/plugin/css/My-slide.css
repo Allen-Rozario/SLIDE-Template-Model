@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'poppins';
+    src: url(./fonts/Poppins/Poppins-Regular.ttf)
+    
+}
+
+*{
+    font-family: poppins !important;
+}
+
+.fa::before,.fa::after
+{
+
+    font-family: fontawesome !important;
+
+}
+
+
+.larger{
+    font-size: xx-large;
+}
+.size{
+    font-size: larger;
+
+}
+.size1{
+    font-size: large;
+
+}
+.profile-image{
+    border-radius: 100% ;
+    border: none;
+}
+.name-slide{position: relative;
+
+}
+.slide-name{
+    position: absolute;
+    top: 80%;
+    left: 3%;
+    
+}
+.dropdown{
+    position: absolute;
+   
+    left: 83%
+}
+.bord :hover{
+    box-shadow: 20px 20px 0px -16px blue, -20px -20px 0px -16px blue;
+}
+
+
+.image-slide
+
+{
+
+cursor: pointer;
+margin-top: -2%;
+
+
+
+}
+
+.image-slide:hover
+
+{
+box-shadow: 20px 20px 0px -16px blue, -20px -20px 0px -16px blue;
+  
+
+}

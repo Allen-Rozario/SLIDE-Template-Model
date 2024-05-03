@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'poppins';
+    src: url(./fonts/Poppins/Poppins-Regular.ttf)
+    
+}
+
+*{
+    font-family: poppins !important;
+}
+
+.fa::before,.fa::after
+{
+
+    font-family: fontawesome !important;
+
+}
+.larger{
+    font-size: xx-large;
+}
+.size{
+    font-size: larger;
+    color: blue;
+
+}
